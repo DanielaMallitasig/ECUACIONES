@@ -144,6 +144,8 @@ to illustrate that the corresponding equations are parsed correctly.</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/datalorax/equatiomatic" class="external-link">equatiomatic</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://pkg.robjhyndman.com/forecast/" class="external-link">forecast</a></span><span class="op">)</span></span>
+<span><span class="co">#&gt; Error in get(paste0(generic, ".", class), envir = get_method_env()) : </span></span>
+<span><span class="co">#&gt;   object 'type_sum.accel' not found</span></span>
 <span></span>
 <span><span class="co"># Build Arima (no regression)</span></span>
 <span><span class="va">simple_ts_mod</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://pkg.robjhyndman.com/forecast/reference/Arima.html" class="external-link">Arima</a></span><span class="op">(</span><span class="va">simple_ts</span>,</span>
@@ -254,7 +256,7 @@ from here and I’m happy for any help or feedback from the community.</p>
 
 <div class="pkgdown">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.0.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.</p>
 </div>
 
       </footer>
